@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/the-understanding-workbench",
+      "destination": "https://understanding-workbench-master.vercel.app/"
+    },
+    {
+      "source": "/the-understanding-workbench/:path*",
+      "destination": "https://understanding-workbench-master.vercel.app/:path*"
+    }
+  ]
+}
